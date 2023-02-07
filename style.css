@@ -12,14 +12,27 @@ html, body {
 .logo{
     font-family: 'Rubik', sans-serif;
     float: left;
+    margin-left: 80px;
+    margin-top: 15px;
 }
 
 .logo a {
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
 }
 
 .nav {
-    float: right
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    margin-right: 80px;
+    margin-top: 2.5px;
+    font-size: small;
+}
+
+.nav a:hover {
+    background-color: rgb(34, 161, 208);
+    border-radius: 20px;
 }
 
 .nav ul{
@@ -30,7 +43,14 @@ html, body {
 
 .nav ul li {
     float: left;
-    padding: 0 10px;
+    padding: 0 5px;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
 }
 
 .clear {
