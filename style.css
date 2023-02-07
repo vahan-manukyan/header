@@ -2,3 +2,9 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.header {
+    background-color: rgb(31, 30, 38);
+    width: 100%;
+    height: 50px;
+}
